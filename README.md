@@ -1,4 +1,4 @@
-# axed-rpc
+# ImageCoind-rpc
 
 [![Build Status](https://travis-ci.com/axerunners/axed-rpc.svg?branch=master)](https://travis-ci.com/axerunners/axed-rpc)
 [![NPM Package](https://img.shields.io/npm/v/@axerunners/axed-rpc.svg)](https://www.npmjs.org/package/@axerunners/axed-rpc)
