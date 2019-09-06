@@ -3,14 +3,13 @@
 [![Build Status](https://travis-ci.com/axerunners/axed-rpc.svg?branch=master)](https://travis-ci.com/axerunners/axed-rpc)
 [![NPM Package](https://img.shields.io/npm/v/@axerunners/axed-rpc.svg)](https://www.npmjs.org/package/@axerunners/axed-rpc)
 
-> Axe Client Library to connect to Axe Core (axed) via RPC
+> IMG Client Library to connect to IMG Core (ImageCoind) via RPC
 
 ## Install
-
-axed-rpc runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+IMG-rpc runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install @axerunners/axed-rpc
+npm install mceme/imagecoin-rpc
 ```
 
 ## Usage
