@@ -26,8 +26,8 @@ Config parameters :
 
 Promise vs callback based
 
-  - `require('@axerunners/axed-rpc/promise')` to have promises returned
-  - `require('@axerunners/axed-rpc')` to have callback functions returned
+  - `require('@mceme/imagecoin-rpc/promise')` to have promises returned
+  - `require('@mceme/imagecoin-rpc')` to have callback functions returned
 
 ### Examples
 
@@ -46,7 +46,7 @@ var config = {
 Promise based:
 
 ```javascript
-var RpcClient = require('@axerunners/axed-rpc/promise');
+var RpcClient = require('@mceme/imagecoin-rpc/promise');
 var rpc = new RpcClient(config);
 
 rpc.getRawMemPool()
@@ -67,8 +67,8 @@ Callback based (legacy):
 
 ```javascript
 var run = function() {
-  var bitcore = require('@axerunners/axecore-lib');
-  var RpcClient = require('@axerunners/axed-rpc');
+  var bitcore = require('@mceme/imagecoin-lib');
+  var RpcClient = require('@mceme/imagecoin-rpc');
   var rpc = new RpcClient(config);
 
   var txids = [];
@@ -114,7 +114,7 @@ var run = function() {
 You can dynamically access to the help of each method by doing
 
 ```
-const RpcClient = require('@axerunners/axed-rpc');
+const RpcClient = require('@mceme/imagecoin-rpc');
 var client = new RPCclient({
     protocol:'http',
     user: 'axe',
